@@ -102,9 +102,11 @@ def validate_answer(player_answer, correct_answer):
     - bool: True if the player's answer is correct, False otherwise.
     """
     #------------------------
-    # Add your code here
+    player_answer = player_answer.strip().lower()
+    correct_answer = correct_answer.strip().lower()
+    return player_answer == correct_answer
     #------------------------
-    raise NotImplementedError("This function is not implemented yet.")
+    #raise NotImplementedError("This function is not implemented yet.")
     #------------------------
 
 #---------------------------------------
