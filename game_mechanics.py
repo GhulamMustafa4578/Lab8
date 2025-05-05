@@ -143,9 +143,9 @@ def next_round(round_number):
     - int: The next round number.
     """
     #------------------------
-    # Add your code here
+    return round_number + 1
     #------------------------
-    raise NotImplementedError("This function is not implemented yet.")
+    #raise NotImplementedError("This function is not implemented yet.")
     #------------------------
 
 #---------------------------------------
