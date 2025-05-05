@@ -51,9 +51,10 @@ def check_answer(player_answer, correct_answer):
     Returns:
     - bool: True if the answers match, False otherwise.
     """
-    #------------------------
-    # Add your code here
-    #------------------------
+    if player_answer.lower() == correct_answer.lower():
+        return True
+    else:
+        return False
     raise NotImplementedError("This function is not implemented yet.")
     #------------------------
 
@@ -67,12 +68,13 @@ def remove_question(category, question):
     - category (str): The category from which to remove the question.
     - question (str): The question to be removed.
 
-    Returns:
+    Returns:get
     - None
     """
-    #------------------------
-    # Add your code here
-    #------------------------
+    for q in questions[category]:
+        if q[0] == question:
+            questions[category].remove(q)
+            break
     raise NotImplementedError("This function is not implemented yet.")
     #------------------------
 
