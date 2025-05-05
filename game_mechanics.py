@@ -65,9 +65,9 @@ def game_over_message(final_score):
     Returns: None
     """
     #------------------------
-    # Add your code here
+    print(final_score)
     #------------------------
-    raise NotImplementedError("This function is not implemented yet.")
+    #raise NotImplementedError("This function is not implemented yet.")
     #------------------------
 
 #---------------------------------------
@@ -82,9 +82,10 @@ def run_game_rounds(categories):
     Returns: None
     """
     #------------------------
-    # Add your code here
+    for i in range(1, 6):
+        print(f"{i}")
     #------------------------
-    raise NotImplementedError("This function is not implemented yet.")
+    #raise NotImplementedError("This function is not implemented yet.")
     #------------------------
 
 #---------------------------------------
