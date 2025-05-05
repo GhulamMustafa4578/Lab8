@@ -30,9 +30,9 @@ def choose_category(categories):
     - str: The chosen category.
     """
     #------------------------
-    # Add your code here
+    return categories[0]
     #------------------------
-    raise NotImplementedError("This function is not implemented yet.")
+    #NotImplementedError("This function is not implemented yet.")
     #------------------------
 
 #---------------------------------------
