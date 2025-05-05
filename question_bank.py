@@ -9,18 +9,19 @@ import random
 questions = {
     "Science": [
         ("What is the chemical symbol for water?", "H2O"),
-        # Add more questions as tuples (question, answer)
+        ("What planet is known as red planet?", "Mars"),
+        ("What gas do humans breath?", "Oxygen")
     ],
 }
 
 hints = {
     "Science": [
-        # Pair each question with a corresponding hint.
-    ],
-    # Repeat for other categories as needed.
+        "It has hydrogen and Oxygen",
+        "It is also the name of a chocolate",
+        "It stars with the letter O"
+    
+    ]    
 }
-
-#---------------------------------------
 
 def select_random_question(category):
     """
@@ -32,9 +33,8 @@ def select_random_question(category):
     Returns:
     - tuple: A tuple containing the selected question (str) and its corresponding answer (str).
     """
-    #------------------------
-    # Add your code here
-    #------------------------
+    question_answer = random.choice(questions[category])
+    return question_answer
     raise NotImplementedError("This function is not implemented yet.")
     #------------------------
 
