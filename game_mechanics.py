@@ -12,9 +12,10 @@ def welcome_message():
     Returns: None
     """
     #------------------------
-    # Add your code here
+    print("Welcome to the game!")
+
     #------------------------
-    raise NotImplementedError("This function is not implemented yet.")
+    #raise NotImplementedError("This function is not implemented yet.")
     #------------------------
 #---------------------------------------
     
